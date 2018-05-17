@@ -9,9 +9,8 @@ class UploadFileController extends Controller
     public function upload(Request $request)
     {
         $dbfile = $request->file('dbfile');
-
-        //Move Uploaded File
+        $device = $request->header('haccp-device');
         $destinationPath = 'uploads';
-        $dbfile->move($destinationPath,$dbfile->getClientOriginalName());
+        $dbfile->move($destinationPath, $device.'.realm');
     }
 }

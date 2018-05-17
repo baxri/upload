@@ -1,0 +1,755 @@
+2018-05-08 00:03:17 - ef551e1e5e8a8d3 - RESUEST URL: /api/original-credit
+2018-05-08 00:03:17 - ef551e1e5e8a8d3 - AMOUNT: 10 MERCHANTORDERID: 9087249 ORIGINALUNIPAYORDERHASHID: MP5AEDD891E25D2TEST 
+2018-05-08 00:03:17 - ef551e1e5e8a8d3 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=6D5B439552871F0B5BCDDEAC0B4E335A&unic_id=OC5AF0B10599C3B&amount=1000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=c6587b9a10e5a57b13b2addcf9270b96176e7e816e2cb541c07d26c252bbedba
+2018-05-08 00:03:19 - ef551e1e5e8a8d3 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134885411</paymentId>
+		<approvalCode>753379</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 00:03:19 - ef551e1e5e8a8d3 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0B10599C3B"} 
+2018-05-08 00:10:19 - 456dcc9740745c2 - RESUEST URL: /api/original-credit
+2018-05-08 00:10:19 - 456dcc9740745c2 - AMOUNT: 11 MERCHANTORDERID: 9087602 ORIGINALUNIPAYORDERHASHID: MP5AF0B14C5196A 
+2018-05-08 00:10:19 - 456dcc9740745c2 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=668E10AF0849C614A5872DE4C5B5E0E0&unic_id=OC5AF0B2AB8E0DD&amount=1100&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=efb64d2fac24a9652f4ca37e6ccdf479c4e245ae9f9c9aa88a0d11c2824ed3f9
+2018-05-08 00:10:21 - 456dcc9740745c2 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134885492</paymentId>
+		<approvalCode>344769</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 00:10:21 - 456dcc9740745c2 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0B2AB8E0DD"} 
+2018-05-08 00:11:53 - f3631b89e8ca5a9 - RESUEST URL: /api/original-credit
+2018-05-08 00:11:53 - f3631b89e8ca5a9 - AMOUNT: 15 MERCHANTORDERID: 9087672 ORIGINALUNIPAYORDERHASHID: MP5AF0AF2FE19BD 
+2018-05-08 00:11:53 - f3631b89e8ca5a9 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=E69A3F1388B181FCB27B9DAA58B644C5&unic_id=OC5AF0B309D0587&amount=1500&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=dc081c2f2397cabe18fb41f23f8f5838ce970d2e93d95219f437c9502bc677c4
+2018-05-08 00:11:55 - f3631b89e8ca5a9 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134885512</paymentId>
+		<approvalCode>672658</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 00:11:55 - f3631b89e8ca5a9 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0B309D0587"} 
+2018-05-08 00:14:27 - d6d11961458d929 - RESUEST URL: /api/original-credit
+2018-05-08 00:14:27 - d6d11961458d929 - AMOUNT: 40 MERCHANTORDERID: 9087773 ORIGINALUNIPAYORDERHASHID: MP5AEA0875CAE79TEST 
+2018-05-08 00:14:27 - d6d11961458d929 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=30AD22631FD5C38DAED73B5F6A5FD5C2&unic_id=OC5AF0B3A3B274C&amount=4000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=6c0e67e37bf965c4a25737afaf516929e474860fd832d6a4e85975e7ceeb2c68
+2018-05-08 00:14:29 - d6d11961458d929 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134885545</paymentId>
+		<approvalCode>933353</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 00:14:29 - d6d11961458d929 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0B3A3B274C"} 
+2018-05-08 00:18:27 - 2f9eb5039a9da5b - RESUEST URL: /api/original-credit
+2018-05-08 00:18:27 - 2f9eb5039a9da5b - AMOUNT: 10 MERCHANTORDERID: 9087958 ORIGINALUNIPAYORDERHASHID: MP5AF0B14C5196A 
+2018-05-08 00:18:27 - 2f9eb5039a9da5b - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=668E10AF0849C614A5872DE4C5B5E0E0&unic_id=OC5AF0B49357659&amount=1000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=242a15e8c260a5f7946f6eb41be1685ddb5956e6264fd3d35c7449bb5f1a59dc
+2018-05-08 00:18:28 - 2f9eb5039a9da5b - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134885581</paymentId>
+		<approvalCode>366831</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 00:18:28 - 2f9eb5039a9da5b - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0B49357659"} 
+2018-05-08 00:29:22 - 5d58613176e2419 - RESUEST URL: /api/original-credit
+2018-05-08 00:29:22 - 5d58613176e2419 - AMOUNT: 10 MERCHANTORDERID: 9088496 ORIGINALUNIPAYORDERHASHID: MP5AF0B14C5196A 
+2018-05-08 00:29:22 - 5d58613176e2419 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=668E10AF0849C614A5872DE4C5B5E0E0&unic_id=OC5AF0B7227BCD3&amount=1000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=bd9203aab1b6a641278f6d30c2c908825f717e6d76ec087846e15d3446271fb2
+2018-05-08 00:29:23 - 5d58613176e2419 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134885728</paymentId>
+		<approvalCode>145452</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 00:29:23 - 5d58613176e2419 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0B7227BCD3"} 
+2018-05-08 00:34:09 - 7e10c384cea5d0c - RESUEST URL: /api/original-credit
+2018-05-08 00:34:09 - 7e10c384cea5d0c - AMOUNT: 40 MERCHANTORDERID: 9088716 ORIGINALUNIPAYORDERHASHID: MP5AF0B3AE374AA 
+2018-05-08 00:34:09 - 7e10c384cea5d0c - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=C210ED9C4218FB3E3EC2FE53D61E6FAE&unic_id=OC5AF0B8413C350&amount=4000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=389247e9a0233ccc728a6b104f2a2a57c1a3f58f21c02494ef79b72976aba120
+2018-05-08 00:34:11 - 7e10c384cea5d0c - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134885784</paymentId>
+		<approvalCode>843227</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 00:34:11 - 7e10c384cea5d0c - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0B8413C350"} 
+2018-05-08 00:48:21 - 789379dc051ba40 - RESUEST URL: /api/original-credit
+2018-05-08 00:48:21 - 789379dc051ba40 - AMOUNT: 150 MERCHANTORDERID: 9089347 ORIGINALUNIPAYORDERHASHID: MP5AF0BAC385FBA 
+2018-05-08 00:48:21 - 789379dc051ba40 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=58B5668E8641F04BA51B27B8BBCF874D&unic_id=OC5AF0BB95DCCC1&amount=15000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=90495f2ce14f3ce5c78cf3c80e4ad81ac0051c4771ce578eb94762e68f99fee2
+2018-05-08 00:48:23 - 789379dc051ba40 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134885952</paymentId>
+		<approvalCode>699739</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 00:48:23 - 789379dc051ba40 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0BB95DCCC1"} 
+2018-05-08 00:52:44 - 9cb52e686cd9c31 - RESUEST URL: /api/original-credit
+2018-05-08 00:52:44 - 9cb52e686cd9c31 - AMOUNT: 100 MERCHANTORDERID: 9089547 ORIGINALUNIPAYORDERHASHID: MP5AEBEF0C0DDE2TEST 
+2018-05-08 00:52:44 - 9cb52e686cd9c31 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=BAC5534ABC1F8AEB778D110104BC0DE8&unic_id=OC5AF0BC9C30FD3&amount=10000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=02e7bb518d2a0f39d181667593fdb99f2662469cdd62c6123188fb7733d707bb
+2018-05-08 00:52:45 - 9cb52e686cd9c31 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134886024</paymentId>
+		<approvalCode>456795</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 00:52:45 - 9cb52e686cd9c31 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0BC9C30FD3"} 
+2018-05-08 00:56:25 - b8f34d7369a1d77 - RESUEST URL: /api/original-credit
+2018-05-08 00:56:25 - b8f34d7369a1d77 - AMOUNT: 180 MERCHANTORDERID: 9089701 ORIGINALUNIPAYORDERHASHID: MP5AEEB8A30F13DTEST 
+2018-05-08 00:56:25 - b8f34d7369a1d77 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=D055AA3523C856DA62C32A0CA9E12386&unic_id=OC5AF0BD79E94E3&amount=18000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=251f611e531ea95fd5c798b039978dd834014d8689159a1001018ee354b18185
+2018-05-08 00:56:27 - b8f34d7369a1d77 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134886066</paymentId>
+		<approvalCode>439981</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 00:56:27 - b8f34d7369a1d77 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0BD79E94E3"} 
+2018-05-08 01:12:04 - a704d34c737395d - RESUEST URL: /api/original-credit
+2018-05-08 01:12:04 - a704d34c737395d - AMOUNT: 91 MERCHANTORDERID: 9090319 ORIGINALUNIPAYORDERHASHID: MP5AEAFF597C498TEST 
+2018-05-08 01:12:04 - a704d34c737395d - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=A72D4E6E652F1F2E083ACE3E327C245E&unic_id=OC5AF0C12448422&amount=9100&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=81987f234f1f688f2548041576165fd84beed1318b7fe27d3ced7330677044d3
+2018-05-08 01:12:05 - a704d34c737395d - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134886194</paymentId>
+		<approvalCode>719367</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 01:12:05 - a704d34c737395d - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0C12448422"} 
+2018-05-08 01:13:46 - 15112e20cb410b3 - RESUEST URL: /api/original-credit
+2018-05-08 01:13:46 - 15112e20cb410b3 - AMOUNT: 70 MERCHANTORDERID: 9090386 ORIGINALUNIPAYORDERHASHID: MP5AEE905DB95CETEST 
+2018-05-08 01:13:46 - 15112e20cb410b3 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=61236672C9C3A5DC0C3ABB5207BCE90B&unic_id=OC5AF0C18A5A3C9&amount=7000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=567c7075d5f1b2bca018aebf6c241fbcd634d478264a2a9a1cb73e0a2d3ff823
+2018-05-08 01:13:47 - 15112e20cb410b3 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134886204</paymentId>
+		<approvalCode>395569</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 01:13:47 - 15112e20cb410b3 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0C18A5A3C9"} 
+2018-05-08 01:29:00 - 724b9064ee23ce6 - RESUEST URL: /api/original-credit
+2018-05-08 01:29:00 - 724b9064ee23ce6 - AMOUNT: 10 MERCHANTORDERID: 9090954 ORIGINALUNIPAYORDERHASHID: MP5AED4CB665CBBTEST 
+2018-05-08 01:29:00 - 724b9064ee23ce6 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=93416D9014A540B1032D9C447B744CEF&unic_id=OC5AF0C51C33A7B&amount=1000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=8eb35b0e654b3eb07b337617f5500e3a6afc13256d9c4572e0f69c0889cbb657
+2018-05-08 01:29:01 - 724b9064ee23ce6 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134886323</paymentId>
+		<approvalCode>245546</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 01:29:01 - 724b9064ee23ce6 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0C51C33A7B"} 
+2018-05-08 01:29:48 - c75018172ce2da6 - RESUEST URL: /api/original-credit
+2018-05-08 01:29:48 - c75018172ce2da6 - AMOUNT: 10 MERCHANTORDERID: 9090991 ORIGINALUNIPAYORDERHASHID: MP5AED4CB665CBBTEST 
+2018-05-08 01:29:48 - c75018172ce2da6 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=93416D9014A540B1032D9C447B744CEF&unic_id=OC5AF0C54C3A9EA&amount=1000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=f9e1ea46b91867b843097a2e02e8caad33e7cc0c94c7115f586e99f231718c35
+2018-05-08 01:29:49 - c75018172ce2da6 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134886326</paymentId>
+		<approvalCode>998156</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 01:29:49 - c75018172ce2da6 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0C54C3A9EA"} 
+2018-05-08 01:41:17 - b3cb505ba9225ae - RESUEST URL: /api/original-credit
+2018-05-08 01:41:17 - b3cb505ba9225ae - AMOUNT: 5 MERCHANTORDERID: 9091409 ORIGINALUNIPAYORDERHASHID: MP5AED4CB665CBBTEST 
+2018-05-08 01:41:17 - b3cb505ba9225ae - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=93416D9014A540B1032D9C447B744CEF&unic_id=OC5AF0C7FDCCA54&amount=500&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=32f16b30d429196af4403a0b1dc9cdb956dbcbe5b1fe0205208d0fdae2417258
+2018-05-08 01:41:19 - b3cb505ba9225ae - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134886394</paymentId>
+		<approvalCode>875959</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 01:41:19 - b3cb505ba9225ae - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0C7FDCCA54"} 
+2018-05-08 01:55:10 - e538764f629cb9a - RESUEST URL: /api/original-credit
+2018-05-08 01:55:10 - e538764f629cb9a - AMOUNT: 184.45 MERCHANTORDERID: 9091896 ORIGINALUNIPAYORDERHASHID: MP5AEDDBA7ACF63TEST 
+2018-05-08 01:55:10 - e538764f629cb9a - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=7F0C47D4037FBBA906041EF98DD54B85&unic_id=OC5AF0CB3EB7B07&amount=18445&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=36a9a0152702c35bc8748e38c2d29830cf582e5d732db3baef46016894c4d362
+2018-05-08 01:55:12 - e538764f629cb9a - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134886468</paymentId>
+		<approvalCode>155367</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 01:55:12 - e538764f629cb9a - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0CB3EB7B07"} 
+2018-05-08 02:16:54 - 050033c4372b459 - RESUEST URL: /api/original-credit
+2018-05-08 02:16:54 - 050033c4372b459 - AMOUNT: 60 MERCHANTORDERID: 9092442 ORIGINALUNIPAYORDERHASHID: MP5AEC251028949TEST 
+2018-05-08 02:16:54 - 050033c4372b459 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=763F5314343EB7AF7E941A669DE30482&unic_id=OC5AF0D0561F270&amount=6000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=38bba2ae16fc23a6e4f917679afefa52f54ca36b8efdfaacc50b1b8224779c56
+2018-05-08 02:16:55 - 050033c4372b459 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134886568</paymentId>
+		<approvalCode>312979</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 02:16:55 - 050033c4372b459 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0D0561F270"} 
+2018-05-08 02:43:36 - 5441d635b11fc0f - RESUEST URL: /api/original-credit
+2018-05-08 02:43:36 - 5441d635b11fc0f - AMOUNT: 130 MERCHANTORDERID: 9092964 ORIGINALUNIPAYORDERHASHID: MP5AF0C9CF5174B 
+2018-05-08 02:43:36 - 5441d635b11fc0f - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=98394E710FDBEDEB51F4D9EE6D1396E5&unic_id=OC5AF0D698672D2&amount=13000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=3236d1c739c9aadf8723476173339ec6ac9385dd0d7c24ac99b6421b6f2d07c2
+2018-05-08 02:43:38 - 5441d635b11fc0f - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134886692</paymentId>
+		<approvalCode>673271</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 02:43:38 - 5441d635b11fc0f - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0D698672D2"} 
+2018-05-08 03:10:51 - ef6ec81880f1cc0 - RESUEST URL: /api/original-credit
+2018-05-08 03:10:51 - ef6ec81880f1cc0 - AMOUNT: 30 MERCHANTORDERID: 9093387 ORIGINALUNIPAYORDERHASHID: MP5AECB349DDD0FTEST 
+2018-05-08 03:10:51 - ef6ec81880f1cc0 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=0C7E8D50B3D717DC0AA82FD15EBDF55A&unic_id=OC5AF0DCFBA5631&amount=3000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=fc7e93c75fc40ab02109003eb5a4f92e8da130900ecf6d93ee84499c404b3867
+2018-05-08 03:10:53 - ef6ec81880f1cc0 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134886774</paymentId>
+		<approvalCode>362965</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 03:10:53 - ef6ec81880f1cc0 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0DCFBA5631"} 
+2018-05-08 03:14:15 - 256f7b34553a72e - RESUEST URL: /api/original-credit
+2018-05-08 03:14:15 - 256f7b34553a72e - AMOUNT: 50 MERCHANTORDERID: 9093442 ORIGINALUNIPAYORDERHASHID: MP5AEBD53C671F1TEST 
+2018-05-08 03:14:15 - 256f7b34553a72e - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=55A47F18A2124DF2A622EB7ED329225F&unic_id=OC5AF0DDC729862&amount=5000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=cfc24c355d2a031ddeeffdfe07734c8b623111b16f6b902bafcbd21ffdf17c95
+2018-05-08 03:14:16 - 256f7b34553a72e - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134886782</paymentId>
+		<approvalCode>332112</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 03:14:16 - 256f7b34553a72e - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0DDC729862"} 
+2018-05-08 03:16:43 - bf1deb7803f7eba - RESUEST URL: /api/original-credit
+2018-05-08 03:16:43 - bf1deb7803f7eba - AMOUNT: 10 MERCHANTORDERID: 9093485 ORIGINALUNIPAYORDERHASHID: MP5AEBD53C671F1TEST 
+2018-05-08 03:16:43 - bf1deb7803f7eba - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=55A47F18A2124DF2A622EB7ED329225F&unic_id=OC5AF0DE5B9FEFD&amount=1000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=023145e5fb7e9c023807a57ea3fc2f5fed21efd68d4dad79b3c77447e42670c4
+2018-05-08 03:16:45 - bf1deb7803f7eba - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134886789</paymentId>
+		<approvalCode>379729</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 03:16:45 - bf1deb7803f7eba - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0DE5B9FEFD"} 
+2018-05-08 05:27:24 - 65d8a8dd8980483 - RESUEST URL: /api/original-credit
+2018-05-08 05:27:24 - 65d8a8dd8980483 - AMOUNT: 1200 MERCHANTORDERID: 9094663 ORIGINALUNIPAYORDERHASHID: MP5AF0DE8EC5664 
+2018-05-08 05:27:24 - 65d8a8dd8980483 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=DE3652EF48A79CE2BB318B2AA69B974E&unic_id=OC5AF0FCFC483F1&amount=120000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=c49b03effedac78d0853c75059dc6c783f5460d2e8ba6d61d4869971a117f054
+2018-05-08 05:27:26 - 65d8a8dd8980483 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134887003</paymentId>
+		<approvalCode>828655</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 05:27:26 - 65d8a8dd8980483 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF0FCFC483F1"} 
+2018-05-08 06:41:35 - c1e34691356d6ef - RESUEST URL: /api/original-credit
+2018-05-08 06:41:35 - c1e34691356d6ef - AMOUNT: 10 MERCHANTORDERID: 9095011 ORIGINALUNIPAYORDERHASHID: MP5AECB349DDD0FTEST 
+2018-05-08 06:41:35 - c1e34691356d6ef - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=0C7E8D50B3D717DC0AA82FD15EBDF55A&unic_id=OC5AF10E5FA99D9&amount=1000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=14e59dc2846fedc696851eb520e370b6b5995261cd8412caa43975e3c8fcf064
+2018-05-08 06:41:38 - c1e34691356d6ef - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134887210</paymentId>
+		<approvalCode>435669</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 06:41:38 - c1e34691356d6ef - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF10E5FA99D9"} 
+2018-05-08 07:33:10 - 8e2d10e976bb06f - RESUEST URL: /api/original-credit
+2018-05-08 07:33:10 - 8e2d10e976bb06f - AMOUNT: 20 MERCHANTORDERID: 9095242 ORIGINALUNIPAYORDERHASHID: MP5AEA7E3746CDDTEST 
+2018-05-08 07:33:10 - 8e2d10e976bb06f - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=DD6FF2FBF3F3EBF987F465FAA794AC23&unic_id=OC5AF11A7669D12&amount=2000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=8c9bbfd5435ee65059bca2167238e3001efd58aacd2b547da0f4ffca75101a3b
+2018-05-08 07:33:12 - 8e2d10e976bb06f - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134887627</paymentId>
+		<approvalCode>342131</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 07:33:12 - 8e2d10e976bb06f - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF11A7669D12"} 
+2018-05-08 07:52:54 - 36abc2e61025135 - RESUEST URL: /api/original-credit
+2018-05-08 07:52:54 - 36abc2e61025135 - AMOUNT: 50 MERCHANTORDERID: 9095387 ORIGINALUNIPAYORDERHASHID: MP5AEDE0E58AF04TEST 
+2018-05-08 07:52:54 - 36abc2e61025135 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=13E1B68B83517FD4A59CFEB8AB65B747&unic_id=OC5AF11F1649FC9&amount=5000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=cee8c7a6b8825ad640ce72d9d02f695eda31960a97d3c149491f45c699603d63
+2018-05-08 07:52:55 - 36abc2e61025135 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134887913</paymentId>
+		<approvalCode>127623</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 07:52:55 - 36abc2e61025135 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF11F1649FC9"} 
+2018-05-08 08:10:48 - c7d25b77f676eb9 - RESUEST URL: /api/original-credit
+2018-05-08 08:10:48 - c7d25b77f676eb9 - AMOUNT: 10 MERCHANTORDERID: 9095539 ORIGINALUNIPAYORDERHASHID: MP5AEF41E444096TEST 
+2018-05-08 08:10:48 - c7d25b77f676eb9 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=E3786122843A5082BCAEFC34EFDD28E2&unic_id=OC5AF123487BAF8&amount=1000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=7dc432340801cc5b8e57b08f3e5ae243823b6827992eaa42feafc6d6aec011e7
+2018-05-08 08:10:49 - c7d25b77f676eb9 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134888308</paymentId>
+		<approvalCode>224145</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 08:10:49 - c7d25b77f676eb9 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF123487BAF8"} 
+2018-05-08 08:38:18 - 5a8df2f133a642a - RESUEST URL: /api/original-credit
+2018-05-08 08:38:18 - 5a8df2f133a642a - AMOUNT: 370 MERCHANTORDERID: 9095786 ORIGINALUNIPAYORDERHASHID: MP5AEE988318883TEST 
+2018-05-08 08:38:18 - 5a8df2f133a642a - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=8D5A2707FD0798B62E99E266E70E1FEB&unic_id=OC5AF129BA9F193&amount=37000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=4e9baa2bddae14543b0787ab5b5adcd8ee9939f624759af20a60d3884248106c
+2018-05-08 08:38:20 - 5a8df2f133a642a - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134889215</paymentId>
+		<approvalCode>823421</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 08:38:20 - 5a8df2f133a642a - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF129BA9F193"} 
+2018-05-08 09:31:53 - fe2c6d5e881fa60 - RESUEST URL: /api/original-credit
+2018-05-08 09:31:53 - fe2c6d5e881fa60 - AMOUNT: 20 MERCHANTORDERID: 9096695 ORIGINALUNIPAYORDERHASHID: MP5AEBEF0C0DDE2TEST 
+2018-05-08 09:31:53 - fe2c6d5e881fa60 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=BAC5534ABC1F8AEB778D110104BC0DE8&unic_id=OC5AF136495402E&amount=2000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=4179206c11c99c84006ce70d2706c77a0f34467d4fd507bf89cb6ab6cbd5e6f9
+2018-05-08 09:31:56 - fe2c6d5e881fa60 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134891943</paymentId>
+		<approvalCode>797787</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 09:31:56 - fe2c6d5e881fa60 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF136495402E"} 
+2018-05-08 10:18:58 - 2fa7a5241517136 - RESUEST URL: /api/original-credit
+2018-05-08 10:18:58 - 2fa7a5241517136 - AMOUNT: 20 MERCHANTORDERID: 9097810 ORIGINALUNIPAYORDERHASHID: MP5AEC996B0BCE9TEST 
+2018-05-08 10:18:58 - 2fa7a5241517136 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=22B7B748F556DAB989986BC980B40609&unic_id=OC5AF14152DBC15&amount=2000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=d88837788a8092e37a74149a3eb2ea1517cbf84691e3dc622f713f108606d3d8
+2018-05-08 10:19:02 - 2fa7a5241517136 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134895298</paymentId>
+		<approvalCode>124516</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 10:19:02 - 2fa7a5241517136 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF14152DBC15"} 
+2018-05-08 11:18:12 - c42d37914941b81 - RESUEST URL: /api/original-credit
+2018-05-08 11:18:12 - c42d37914941b81 - AMOUNT: 23 MERCHANTORDERID: 9099578 ORIGINALUNIPAYORDERHASHID: MP5AEE905DB95CETEST 
+2018-05-08 11:18:12 - c42d37914941b81 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=61236672C9C3A5DC0C3ABB5207BCE90B&unic_id=OC5AF14F34774FC&amount=2300&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=d91f3b6b2980a482de0a644301b661611bf486c0dc205837cbf13c6e0082b071
+2018-05-08 11:18:15 - c42d37914941b81 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134901457</paymentId>
+		<approvalCode>832487</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 11:18:15 - c42d37914941b81 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF14F34774FC"} 
+2018-05-08 12:08:15 - 5509d808b8123ea - RESUEST URL: /api/original-credit
+2018-05-08 12:08:15 - 5509d808b8123ea - AMOUNT: 14.56 MERCHANTORDERID: 9101382 ORIGINALUNIPAYORDERHASHID: MP5AE9B92C71ACCTEST 
+2018-05-08 12:08:15 - 5509d808b8123ea - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=750E9173821707FC1E87AB89BE03E1A9&unic_id=OC5AF15AEF1E1B4&amount=1456&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=f7bc13d5bdcea6408713c566a68615449be781611d3c9c362708c21e5a97a34c
+2018-05-08 12:08:19 - 5509d808b8123ea - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134906571</paymentId>
+		<approvalCode>793451</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 12:08:19 - 5509d808b8123ea - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF15AEF1E1B4"} 
+2018-05-08 12:44:58 - f7c4f1d1590636f - RESUEST URL: /api/original-credit
+2018-05-08 12:44:58 - f7c4f1d1590636f - AMOUNT: 70 MERCHANTORDERID: 9102791 ORIGINALUNIPAYORDERHASHID: MP5AE9B92C71ACCTEST 
+2018-05-08 12:44:58 - f7c4f1d1590636f - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=750E9173821707FC1E87AB89BE03E1A9&unic_id=OC5AF1638A93627&amount=7000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=e7322a62be3c66a76dc2d45a92ab2db51a116dce5ab6f0dc40c5b13a3b7c9592
+2018-05-08 12:45:03 - f7c4f1d1590636f - ORIGINAL_CREDIT_EXCEPTION: cURL error 28: Connection timed out after 5001 milliseconds (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+2018-05-08 12:45:03 - f7c4f1d1590636f - RESPONSE: ERRORCODE: 500 MESSAGE: cURL error 28: Connection timed out after 5001 milliseconds (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) 
+2018-05-08 12:57:39 - 9e1846c5a186fb9 - RESUEST URL: /api/original-credit
+2018-05-08 12:57:39 - 9e1846c5a186fb9 - AMOUNT: 101 MERCHANTORDERID: 9103332 ORIGINALUNIPAYORDERHASHID: MP5AF0247E13E0ETEST 
+2018-05-08 12:57:39 - 9e1846c5a186fb9 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=2BEB7B5D85FDA3F46A95E5EAA885CAFB&unic_id=OC5AF166839260F&amount=10100&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=da29206ed5a676f12aa3293e023660b9e160ed7f835d897d33ceb5d2a76575a2
+2018-05-08 12:57:44 - 9e1846c5a186fb9 - ORIGINAL_CREDIT_EXCEPTION: cURL error 28: Connection timed out after 5001 milliseconds (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+2018-05-08 12:57:44 - 9e1846c5a186fb9 - RESPONSE: ERRORCODE: 500 MESSAGE: cURL error 28: Connection timed out after 5001 milliseconds (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) 
+2018-05-08 13:11:39 - 595efd18ceacf21 - RESUEST URL: /api/original-credit
+2018-05-08 13:11:39 - 595efd18ceacf21 - AMOUNT: 400 MERCHANTORDERID: 9103920 ORIGINALUNIPAYORDERHASHID: MP5AE9C028E30C7TEST 
+2018-05-08 13:11:39 - 595efd18ceacf21 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=FF6160783E7594C56C373ED2BC00FC0C&unic_id=OC5AF169CB2B93B&amount=40000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=1d2035b05b602966327879b944bae2986efb244e5aebfeb1b59fe2df1217da31
+2018-05-08 13:11:42 - 595efd18ceacf21 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134913701</paymentId>
+		<approvalCode>549596</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 13:11:42 - 595efd18ceacf21 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF169CB2B93B"} 
+2018-05-08 13:14:26 - 3cc6ea3eb040c82 - RESUEST URL: /api/original-credit
+2018-05-08 13:14:26 - 3cc6ea3eb040c82 - AMOUNT: 300 MERCHANTORDERID: 9104045 ORIGINALUNIPAYORDERHASHID: MP5AF1694381FE3 
+2018-05-08 13:14:26 - 3cc6ea3eb040c82 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=55EAFCE271AD5A3EF797C16F81232284&unic_id=OC5AF16A72A5957&amount=30000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=e6faf3a519d3c0e6a63b16441b3c9f77f8e19c45cec5d631a6a373fc4cf96d2e
+2018-05-08 13:14:28 - 3cc6ea3eb040c82 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134913938</paymentId>
+		<approvalCode>535892</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 13:14:28 - 3cc6ea3eb040c82 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF16A72A5957"} 
+2018-05-08 13:16:08 - 83c5e146130ab68 - RESUEST URL: /api/original-credit
+2018-05-08 13:16:08 - 83c5e146130ab68 - AMOUNT: 15 MERCHANTORDERID: 9104129 ORIGINALUNIPAYORDERHASHID: MP5AEC2DAB5607BTEST 
+2018-05-08 13:16:08 - 83c5e146130ab68 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=0FFCCEE9C4468851C1BD2C2F755B01C1&unic_id=OC5AF16AD8E227E&amount=1500&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=4742526927c1cae17802b694acd9795c1e831047df19f854a14532e18e14a77d
+2018-05-08 13:16:10 - 83c5e146130ab68 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134914125</paymentId>
+		<approvalCode>759474</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 13:16:10 - 83c5e146130ab68 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF16AD8E227E"} 
+2018-05-08 13:21:10 - f9567b8b7d556d7 - RESUEST URL: /api/original-credit
+2018-05-08 13:21:10 - f9567b8b7d556d7 - AMOUNT: 10 MERCHANTORDERID: 9104320 ORIGINALUNIPAYORDERHASHID: MP5AF144B9B2167 
+2018-05-08 13:21:10 - f9567b8b7d556d7 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=E4C8E63F9F80838915FC9A155967A4C2&unic_id=OC5AF16C06EBAFC&amount=1000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=11e86e863228aa59238f261b10074c2c3e37db59926103ec267255aa7e151172
+2018-05-08 13:21:12 - f9567b8b7d556d7 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134914803</paymentId>
+		<approvalCode>664941</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 13:21:12 - f9567b8b7d556d7 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF16C06EBAFC"} 
+2018-05-08 13:24:40 - 58ddbc7eab76b5c - RESUEST URL: /api/original-credit
+2018-05-08 13:24:40 - 58ddbc7eab76b5c - AMOUNT: 15 MERCHANTORDERID: 9104514 ORIGINALUNIPAYORDERHASHID: MP5AF144B9B2167 
+2018-05-08 13:24:40 - 58ddbc7eab76b5c - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=E4C8E63F9F80838915FC9A155967A4C2&unic_id=OC5AF16CD8A9BB6&amount=1500&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=8786ed460878c64a1c973825d540f49b1e8d2d66e105f6c09292567a1abb174d
+2018-05-08 13:24:42 - 58ddbc7eab76b5c - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134915178</paymentId>
+		<approvalCode>863424</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 13:24:42 - 58ddbc7eab76b5c - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF16CD8A9BB6"} 
+2018-05-08 13:25:50 - 25cac85f078b036 - RESUEST URL: /api/original-credit
+2018-05-08 13:25:50 - 25cac85f078b036 - AMOUNT: 200 MERCHANTORDERID: 9104595 ORIGINALUNIPAYORDERHASHID: MP5AF060F14F4FF 
+2018-05-08 13:25:50 - 25cac85f078b036 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=6F527562E93B72D3C5FF7EA902EAD533&unic_id=OC5AF16D1ECEB65&amount=20000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=b7546679821b449d49b00871cb1b68d61ef4f6b2260f99ecee46c95ea098b764
+2018-05-08 13:25:53 - 25cac85f078b036 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134915328</paymentId>
+		<approvalCode>741385</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 13:25:53 - 25cac85f078b036 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF16D1ECEB65"} 
+2018-05-08 13:27:14 - c0ce406e157203b - RESUEST URL: /api/original-credit
+2018-05-08 13:27:14 - c0ce406e157203b - AMOUNT: 5.58 MERCHANTORDERID: 9104654 ORIGINALUNIPAYORDERHASHID: MP5AEE988318883TEST 
+2018-05-08 13:27:14 - c0ce406e157203b - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=8D5A2707FD0798B62E99E266E70E1FEB&unic_id=OC5AF16D726FA12&amount=558&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=c0af029fba197891e535c9d103525989d1a7b1c2d395dda4355e0b05fe059a6b
+2018-05-08 13:27:16 - c0ce406e157203b - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134915503</paymentId>
+		<approvalCode>585669</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 13:27:16 - c0ce406e157203b - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF16D726FA12"} 
+2018-05-08 13:32:04 - cd7c52649667b4d - RESUEST URL: /api/original-credit
+2018-05-08 13:32:04 - cd7c52649667b4d - AMOUNT: 20 MERCHANTORDERID: 9104898 ORIGINALUNIPAYORDERHASHID: MP5AF15923B2926 
+2018-05-08 13:32:05 - cd7c52649667b4d - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=9D2DC941771FA50C8360AD98121E09DB&unic_id=OC5AF16E95018AE&amount=2000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=0f46ba377d620ca3dae94ebcace842e0eb36f70470c31a33547a45b32b25f796
+2018-05-08 13:32:09 - cd7c52649667b4d - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134916075</paymentId>
+		<approvalCode>897911</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 13:32:09 - cd7c52649667b4d - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF16E95018AE"} 
+2018-05-08 13:44:51 - 7d5cad5e6d59223 - RESUEST URL: /api/original-credit
+2018-05-08 13:44:51 - 7d5cad5e6d59223 - AMOUNT: 10 MERCHANTORDERID: 9105461 ORIGINALUNIPAYORDERHASHID: MP5AEC2DAB5607BTEST 
+2018-05-08 13:44:51 - 7d5cad5e6d59223 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=0FFCCEE9C4468851C1BD2C2F755B01C1&unic_id=OC5AF17193BE44F&amount=1000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=0202463702621ebf2caa8e1124ce8ae2703fbcd6ad6df0a99cd7f26fe4703d55
+2018-05-08 13:44:53 - 7d5cad5e6d59223 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134917599</paymentId>
+		<approvalCode>489234</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 13:44:53 - 7d5cad5e6d59223 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF17193BE44F"} 
+2018-05-08 13:53:50 - 059f73cef68a81f - RESUEST URL: /api/original-credit
+2018-05-08 13:53:50 - 059f73cef68a81f - AMOUNT: 60 MERCHANTORDERID: 9105889 ORIGINALUNIPAYORDERHASHID: MP5AF1666BF3B56 
+2018-05-08 13:53:50 - 059f73cef68a81f - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=728E39A09F1B563C326B2C11C333D006&unic_id=OC5AF173AE59976&amount=6000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=bddb7a3e385d4173a35b290cb291ae204c9d84c55bc0becb9be3da3d32b8ab15
+2018-05-08 13:53:51 - 059f73cef68a81f - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134918430</paymentId>
+		<approvalCode>132117</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 13:53:51 - 059f73cef68a81f - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF173AE59976"} 
+2018-05-08 14:00:33 - 4df367749dd6efd - RESUEST URL: /api/original-credit
+2018-05-08 14:00:33 - 4df367749dd6efd - AMOUNT: 17 MERCHANTORDERID: 9106222 ORIGINALUNIPAYORDERHASHID: MP5AF15923B2926 
+2018-05-08 14:00:33 - 4df367749dd6efd - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=9D2DC941771FA50C8360AD98121E09DB&unic_id=OC5AF17541A354D&amount=1700&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=0f9a9a6fa4ee595ee9aed2a6408250d8211a7988a0f02cbd61f6925818ec9057
+2018-05-08 14:00:38 - 4df367749dd6efd - ORIGINAL_CREDIT_EXCEPTION: cURL error 28: Connection timed out after 5002 milliseconds (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+2018-05-08 14:00:38 - 4df367749dd6efd - RESPONSE: ERRORCODE: 500 MESSAGE: cURL error 28: Connection timed out after 5002 milliseconds (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) 
+2018-05-08 14:05:04 - 9e2f83fd59d00b0 - RESUEST URL: /api/original-credit
+2018-05-08 14:05:04 - 9e2f83fd59d00b0 - AMOUNT: 46 MERCHANTORDERID: 9106450 ORIGINALUNIPAYORDERHASHID: MP5AF17390A5777 
+2018-05-08 14:05:04 - 9e2f83fd59d00b0 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=C9ACB354C56A1EC5411B974E33CF4958&unic_id=OC5AF176506570C&amount=4600&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=8fc1f72efdf5b1f2a411b4a580041e1d269c07a6dce672be54674d02ce0379ba
+2018-05-08 14:05:09 - 9e2f83fd59d00b0 - ORIGINAL_CREDIT_EXCEPTION: cURL error 28: Connection timed out after 5002 milliseconds (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+2018-05-08 14:05:09 - 9e2f83fd59d00b0 - RESPONSE: ERRORCODE: 500 MESSAGE: cURL error 28: Connection timed out after 5002 milliseconds (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) 
+2018-05-08 14:34:46 - a4f91109661dfac - RESUEST URL: /api/original-credit
+2018-05-08 14:34:46 - a4f91109661dfac - AMOUNT: 300 MERCHANTORDERID: 9107809 ORIGINALUNIPAYORDERHASHID: MP5AF0DCB3AF6BB 
+2018-05-08 14:34:46 - a4f91109661dfac - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=4529F55D5C45D01A9BA0BB2CAA479D10&unic_id=OC5AF17D46DB53F&amount=30000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=72345e86ac187b9e33543b6155ca754f58d6a5545c6a3a7f89d2dbafab225dd3
+2018-05-08 14:34:49 - a4f91109661dfac - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134922751</paymentId>
+		<approvalCode>867354</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 14:34:49 - a4f91109661dfac - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF17D46DB53F"} 
+2018-05-08 14:41:37 - d818698a669789c - RESUEST URL: /api/original-credit
+2018-05-08 14:41:37 - d818698a669789c - AMOUNT: 45 MERCHANTORDERID: 9108147 ORIGINALUNIPAYORDERHASHID: MP5AF17E7120409 
+2018-05-08 14:41:37 - d818698a669789c - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=1B268CC786E2E02F152D16F8ED98E8E0&unic_id=OC5AF17EE1EE0ED&amount=4500&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=3c7d446b8412c0c84ce0d3765e8bc603598e0751a120fcd1a048339abaea6ca4
+2018-05-08 14:41:39 - d818698a669789c - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134923538</paymentId>
+		<approvalCode>347155</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 14:41:39 - d818698a669789c - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF17EE1EE0ED"} 
+2018-05-08 14:47:28 - ffc75875190b6f5 - RESUEST URL: /api/original-credit
+2018-05-08 14:47:28 - ffc75875190b6f5 - AMOUNT: 200 MERCHANTORDERID: 9108462 ORIGINALUNIPAYORDERHASHID: MP5AF15BB0D27EF 
+2018-05-08 14:47:28 - ffc75875190b6f5 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=40552C6A9F04513AC2CC4666A43994E8&unic_id=OC5AF18040178B2&amount=20000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=61aae206d31bb3e3cf3e5d90f7da8e174d0939f9f6eca49f5e3ab0c8d7a32ffb
+2018-05-08 14:47:29 - ffc75875190b6f5 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134924192</paymentId>
+		<approvalCode>155371</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 14:47:29 - ffc75875190b6f5 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF18040178B2"} 
+2018-05-08 14:50:58 - 25bee41edf6c7dc - RESUEST URL: /api/original-credit
+2018-05-08 14:50:58 - 25bee41edf6c7dc - AMOUNT: 10 MERCHANTORDERID: 9108581 ORIGINALUNIPAYORDERHASHID: MP5AEB14F62CF16TEST 
+2018-05-08 14:50:58 - 25bee41edf6c7dc - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=A210508AFAAADC82B12A0250F22AE06D&unic_id=OC5AF181122C54B&amount=1000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=8e2b75adac2a15660b97b1e69ffa9f5a98d666aee2f872970b40308a7dbb47ea
+2018-05-08 14:50:59 - 25bee41edf6c7dc - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134924548</paymentId>
+		<approvalCode>658173</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 14:50:59 - 25bee41edf6c7dc - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF181122C54B"} 
+2018-05-08 15:11:19 - 435a3b034fba71f - RESUEST URL: /api/original-credit
+2018-05-08 15:11:19 - 435a3b034fba71f - AMOUNT: 240 MERCHANTORDERID: 9109505 ORIGINALUNIPAYORDERHASHID: MP5AECB349DDD0FTEST 
+2018-05-08 15:11:19 - 435a3b034fba71f - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=0C7E8D50B3D717DC0AA82FD15EBDF55A&unic_id=OC5AF185D73C1E6&amount=24000&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=5a73e6eb2614b8f38e851504b3ed2756f591d5f02a3bc151501a7f584cc1d247
+2018-05-08 15:11:22 - 435a3b034fba71f - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134926431</paymentId>
+		<approvalCode>397992</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 15:11:22 - 435a3b034fba71f - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF185D73C1E6"} 
+2018-05-08 15:12:08 - 44a7ed4006e6cc2 - RESUEST URL: /api/original-credit
+2018-05-08 15:12:08 - 44a7ed4006e6cc2 - AMOUNT: 38 MERCHANTORDERID: 9109551 ORIGINALUNIPAYORDERHASHID: MP5AF17C1EA5894 
+2018-05-08 15:12:08 - 44a7ed4006e6cc2 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=57FEC1DDB7982A696B085F31EE2A12B2&unic_id=OC5AF18608C8C5F&amount=3800&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=09187ecdfe3507c1bcc70bf2fedc866c426455848f378ad5ce99e4a4de449fe3
+2018-05-08 15:12:11 - 44a7ed4006e6cc2 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134926511</paymentId>
+		<approvalCode>731424</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 15:12:11 - 44a7ed4006e6cc2 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF18608C8C5F"} 
+2018-05-08 15:19:21 - fcbf7307fc6c6e4 - RESUEST URL: /api/original-credit
+2018-05-08 15:19:21 - fcbf7307fc6c6e4 - AMOUNT: 71 MERCHANTORDERID: 9109856 ORIGINALUNIPAYORDERHASHID: MP5AF17C1EA5894 
+2018-05-08 15:19:21 - fcbf7307fc6c6e4 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=57FEC1DDB7982A696B085F31EE2A12B2&unic_id=OC5AF187B9A4526&amount=7100&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=db60110c1ab26074f7db22f7345780c7893ce819a1d904efb4e1a128a65a3d78
+2018-05-08 15:19:23 - fcbf7307fc6c6e4 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134927172</paymentId>
+		<approvalCode>128464</approvalCode>
+	</params>
+</intervale-refund-response>
+
+2018-05-08 15:19:23 - fcbf7307fc6c6e4 - RESPONSE: ERRORCODE: 0 MESSAGE: OK DATA: {"OriginalCreditHashId":"OC5AF187B9A4526"} 
+2018-05-08 15:28:01 - 7394f249e5d9c34 - RESUEST URL: /api/original-credit
+2018-05-08 15:28:01 - 7394f249e5d9c34 - AMOUNT: 22 MERCHANTORDERID: 9110252 ORIGINALUNIPAYORDERHASHID: MP5AF189177FED3 
+2018-05-08 15:28:01 - 7394f249e5d9c34 - ORIGINAL_CREDIT_REQUEST: http://91.223.245.246/intervaleService/Refund?trx_id=9A14D20907D5E692C5F8C4C4BB6A549A&unic_id=OC5AF189C1835BD&amount=2200&merch_id=A29BC64B75D25EE7A28D5158CBE564B1&checkkey=bc469165b069c4a043e12e80706f1b21536949ade5693f78c06e78fcc4059c38
+2018-05-08 15:28:03 - 7394f249e5d9c34 - ORIGINAL_CREDIT_RESPONSE: <intervale-refund-response>
+	<result>
+		<code>0</code>
+		<desc>OK</desc>
+	</result>
+	<params>
+		<paymentId>134928071</paymentId>
+		<approvalCode>213323</approvalCode>
+	</params>
+</intervale-refund-response>
+
+
