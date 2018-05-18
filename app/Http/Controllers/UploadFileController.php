@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Upload;
 use Illuminate\Http\Request;
 
 class UploadFileController extends Controller
@@ -10,8 +11,19 @@ class UploadFileController extends Controller
     {
         $dbfile = $request->file('dbfile');
         $device = $request->header('haccp-device');
+
+        if(empty($device)){
+            return;
+        }
+
+        $filename = $device.'-'.time().'.realm';
+
+        Upload::create([
+            'device' => $device,
+            'filename' => $filename,
+        ]);
+
         $destinationPath = 'uploads';
-        $dbfile->move($destinationPath, $device.'.realm');
-        
+        $dbfile->move($destinationPath, $filename);
     }
 }
