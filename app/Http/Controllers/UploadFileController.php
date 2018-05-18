@@ -12,5 +12,6 @@ class UploadFileController extends Controller
         $device = $request->header('haccp-device');
         $destinationPath = 'uploads';
         $dbfile->move($destinationPath, $device.'.realm');
+        
     }
 }
