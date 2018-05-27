@@ -11,28 +11,26 @@ class UploadFileController extends Controller
 {
     public function upload(Request $request)
     {
-        $dbfiles = $request->file('dbfile');
+        $images = $request->file('images');
+        $realm = $request->file('realm');
         $device = $request->header('haccp-device');
-        $bundle = $device.'-'.time();
+        $bundle = $device . '-' . time();
 
-        if (empty($device) || empty($bundle) || empty($dbfiles)) {
+        if (empty($realm) || empty($device) || empty($bundle) || empty($dbfiles)) {
             return;
         }
 
-        $path = public_path().'/uploads/'.$bundle;
+        $path = public_path() . '/uploads/' . $bundle;
         File::makeDirectory($path, $mode = 0777, true, true);
 
-        foreach ($dbfiles as $dbfile) {
-            $ext = $dbfile->extension();
-            $filename = $dbfile->getClientOriginalName();
+        $filename = $realm->getClientOriginalName();
+        Upload::create(['device' => $device, 'filename' => $filename]);
+        $realm->move($path, $filename);
 
-            if($ext == 'realm'){
-                Upload::create(['device' => $device, 'filename' => $filename,]);
-            }else{
-                Upload::create(['device' => $device, 'filename' => $filename,]);
-            }
-
-            $dbfile->move($path, $filename);
+        foreach ($images as $image) {
+            $filename = $image->getClientOriginalName();
+            Upload::create(['device' => $device, 'filename' => $filename]);
+            $image->move($path, $filename);
         }
     }
 }
