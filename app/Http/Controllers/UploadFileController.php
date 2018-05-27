@@ -20,6 +20,7 @@ class UploadFileController extends Controller
             return;
         }
 
+
         $path = public_path() . '/uploads/' . $bundle;
         File::makeDirectory($path, $mode = 0777, true, true);
 
