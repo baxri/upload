@@ -16,7 +16,7 @@ class UploadFileController extends Controller
         $device = $request->header('haccp-device');
         $bundle = $device . '-' . time();
 
-        if (empty($realm) || empty($device) || empty($bundle) || empty($dbfiles)) {
+        if (empty($realm) || empty($device) || empty($bundle) || empty($images)) {
             return;
         }
 
