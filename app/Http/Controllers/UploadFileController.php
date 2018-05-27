@@ -4,26 +4,35 @@ namespace App\Http\Controllers;
 
 use App\Upload;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
 
 class UploadFileController extends Controller
 {
     public function upload(Request $request)
     {
-        $dbfile = $request->file('dbfile');
+        $dbfiles = $request->file('dbfile');
         $device = $request->header('haccp-device');
+        $bundle = $device.'-'.time();
 
-        if(empty($device)){
+        if (empty($device) || empty($bundle) || empty($dbfiles)) {
             return;
         }
 
-        $filename = $device.'-'.time().'.realm';
+        $path = public_path().'/uploads/'.$bundle;
+        File::makeDirectory($path, $mode = 0777, true, true);
 
-        Upload::create([
-            'device' => $device,
-            'filename' => $filename,
-        ]);
+        foreach ($dbfiles as $dbfile) {
+            $ext = $dbfile->extension();
+            $filename = $dbfile->getClientOriginalName();
 
-        $destinationPath = 'uploads';
-        $dbfile->move($destinationPath, $filename);
+            if($ext == 'realm'){
+                Upload::create(['device' => $device, 'filename' => $filename,]);
+            }else{
+                Upload::create(['device' => $device, 'filename' => $filename,]);
+            }
+
+            $dbfile->move($path, $filename);
+        }
     }
 }
