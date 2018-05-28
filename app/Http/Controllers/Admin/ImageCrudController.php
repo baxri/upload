@@ -15,14 +15,20 @@ class ImageCrudController extends CrudController
     {
         $parent_id = Request()->parent_id;
 
+        $upload = Upload::find($parent_id);
+
         $this->crud->setModel(Upload::class);
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/upload/' . $parent_id . '/images');
         $this->crud->setEntityNameStrings('image', 'images');
 
         $this->crud->addColumn([
-            'label' => 'Image',
-            'type' => 'model_function',
-            'function_name' => 'getImage',
+            'name' => 'filename', // The db column name
+            'label' => "IMAGE", // Table column heading
+            'type' => 'image',
+            'prefix' => 'uploads/'.$upload->bundle.'/',
+            // optional width/height if 25px is not ok with you
+             'height' => '50px',
+             'width' => '50px',
         ]);
 
         $this->crud->addColumn([
@@ -39,6 +45,8 @@ class ImageCrudController extends CrudController
 //            'function_name' => 'getAmountView',
         ]);
 
+
+
         $this->crud->addColumn([
             'label' => 'DEVICE',
             'name' => 'device',
@@ -46,12 +54,12 @@ class ImageCrudController extends CrudController
 //            'function_name' => 'getAmountView',
         ]);
 
-        $this->crud->addColumn([
-            'label' => 'FILENAME',
-            'name' => 'filename',
-//            'type' => 'model_function',
-//            'function_name' => 'getAmountView',
-        ]);
+//        $this->crud->addColumn([
+//            'label' => 'FILENAME',
+//            'name' => 'filename',
+////            'type' => 'model_function',
+////            'function_name' => 'getAmountView',
+//        ]);
 
         $this->crud->addColumn([
             'label' => 'UPLOADED AT',

@@ -44,6 +44,18 @@ class UploadCrudController extends CrudController
         ]);
 
         $this->crud->addColumn([
+            'label' => 'IMAGES',
+            'type' => 'model_function',
+            'function_name' => 'getImageLink',
+        ]);
+
+        $this->crud->addColumn([
+            'label' => 'DOWNLOADS',
+            'type' => 'model_function',
+            'function_name' => 'downloadLink',
+        ]);
+
+        $this->crud->addColumn([
             'label' => 'DEVICE',
             'name' => 'device',
 //            'type' => 'model_function',

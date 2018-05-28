@@ -18,8 +18,16 @@ class Upload extends Model
         'filename',
     ];
 
-    public function getImage(){
-        return "uploads/".$this->bundle."/".$this->filename;
-        return '<img src="uploads/'.$this->bundle.'/'.$this->filename.'">';
+    public function images(){
+        return $this->hasMany(Upload::class, 'parent_id');
     }
+
+    public function getImageLink(){
+        return '<a href="upload/'.$this->id.'/images">Images ('.count($this->images).')</a>';
+    }
+
+    public function downloadLink(){
+        return '<a href="#">Download</a>';
+    }
+
 }
