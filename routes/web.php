@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function()
 {
     CRUD::resource('upload', 'Admin\UploadCrudController');
+    CRUD::resource('image', 'Admin\ImageCrudController');
 
 });
 

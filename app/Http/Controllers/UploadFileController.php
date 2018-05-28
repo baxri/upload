@@ -20,17 +20,16 @@ class UploadFileController extends Controller
             return;
         }
 
-
         $path = public_path() . '/uploads/' . $bundle;
         File::makeDirectory($path, $mode = 0777, true, true);
 
         $filename = $realm->getClientOriginalName();
-        Upload::create(['device' => $device, 'filename' => $filename]);
+        $realmBackup = Upload::create(['device' => $device, 'filename' => $filename, 'bundle' => $bundle]);
         $realm->move($path, $filename);
 
         foreach ($images as $image) {
             $filename = $image->getClientOriginalName();
-            Upload::create(['device' => $device, 'filename' => $filename]);
+            Upload::create(['parent_id' => $realmBackup->id, 'device' => $device, 'filename' => $filename, 'bundle' => $bundle]);
             $image->move($path, $filename);
         }
     }

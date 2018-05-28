@@ -12,6 +12,8 @@ class Upload extends Model
     protected $table = 'uploads';
 
     protected $fillable = [
+        'parent_id',
+        'bundle',
         'device',
         'filename',
     ];

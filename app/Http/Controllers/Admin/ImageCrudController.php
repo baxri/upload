@@ -6,28 +6,16 @@ use App\Upload;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 
 // VALIDATION: change the requests to match your own file names if you need form validation
-use App\Http\Requests\UploadRequest as StoreRequest;
-use App\Http\Requests\UploadRequest as UpdateRequest;
+use App\Http\Requests\ImageRequest as StoreRequest;
+use App\Http\Requests\ImageRequest as UpdateRequest;
 
-class UploadCrudController extends CrudController
+class ImageCrudController extends CrudController
 {
     public function setup()
     {
-
-        /*
-        |--------------------------------------------------------------------------
-        | BASIC CRUD INFORMATION
-        |--------------------------------------------------------------------------
-        */
         $this->crud->setModel(Upload::class);
-        $this->crud->setRoute(config('backpack.base.route_prefix') . '/upload');
-        $this->crud->setEntityNameStrings('upload', 'uploads');
-
-        /*
-        |--------------------------------------------------------------------------
-        | BASIC CRUD INFORMATION
-        |--------------------------------------------------------------------------
-        */
+        $this->crud->setRoute(config('backpack.base.route_prefix') . '/image');
+        $this->crud->setEntityNameStrings('image', 'images');
 
         $this->crud->addColumn([
             'label' => 'ID',
@@ -66,7 +54,7 @@ class UploadCrudController extends CrudController
 
 //        $this->crud->setFromDb();
 
-        $this->crud->addClause('whereNull', 'parent_id');
+        $this->crud->addClause('where', 'parent_id', '>', 0);
 
         // ------ CRUD FIELDS
         // $this->crud->addField($options, 'update/create/both');
@@ -87,8 +75,7 @@ class UploadCrudController extends CrudController
         // $this->crud->addButton($stack, $name, $type, $content, $position); // add a button; possible types are: view, model_function
         // $this->crud->addButtonFromModelFunction($stack, $name, $model_function_name, $position); // add a button whose HTML is returned by a method in the CRUD model
         // $this->crud->addButtonFromView($stack, $name, $view, $position); // add a button whose HTML is in a view placed at resources\views\vendor\backpack\crud\buttons
-         $this->crud->removeButton('create');
-         $this->crud->removeButton('update');
+        // $this->crud->removeButton($name);
         // $this->crud->removeButtonFromStack($name, $stack);
         // $this->crud->removeAllButtons();
         // $this->crud->removeAllButtonsFromStack('line');
@@ -115,7 +102,7 @@ class UploadCrudController extends CrudController
         // Please note the drawbacks of this though:
         // - 1-n and n-n columns are not searchable
         // - date and datetime columns won't be sortable anymore
-         $this->crud->enableAjaxTable();
+        // $this->crud->enableAjaxTable();
 
         // ------ DATATABLE EXPORT BUTTONS
         // Show export to PDF, CSV, XLS and Print buttons on the table view.
