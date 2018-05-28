@@ -17,4 +17,9 @@ class Upload extends Model
         'device',
         'filename',
     ];
+
+    public function getImage(){
+        return "uploads/".$this->bundle."/".$this->filename;
+        return '<img src="uploads/'.$this->bundle.'/'.$this->filename.'">';
+    }
 }
