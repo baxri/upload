@@ -8,6 +8,7 @@ use Backpack\CRUD\app\Http\Controllers\CrudController;
 // VALIDATION: change the requests to match your own file names if you need form validation
 use App\Http\Requests\UploadRequest as StoreRequest;
 use App\Http\Requests\UploadRequest as UpdateRequest;
+use ZipArchive;
 
 class UploadCrudController extends CrudController
 {
@@ -99,8 +100,8 @@ class UploadCrudController extends CrudController
         // $this->crud->addButton($stack, $name, $type, $content, $position); // add a button; possible types are: view, model_function
         // $this->crud->addButtonFromModelFunction($stack, $name, $model_function_name, $position); // add a button whose HTML is returned by a method in the CRUD model
         // $this->crud->addButtonFromView($stack, $name, $view, $position); // add a button whose HTML is in a view placed at resources\views\vendor\backpack\crud\buttons
-         $this->crud->removeButton('create');
-         $this->crud->removeButton('update');
+        $this->crud->removeButton('create');
+        $this->crud->removeButton('update');
         // $this->crud->removeButtonFromStack($name, $stack);
         // $this->crud->removeAllButtons();
         // $this->crud->removeAllButtonsFromStack('line');
@@ -127,7 +128,7 @@ class UploadCrudController extends CrudController
         // Please note the drawbacks of this though:
         // - 1-n and n-n columns are not searchable
         // - date and datetime columns won't be sortable anymore
-         $this->crud->enableAjaxTable();
+        $this->crud->enableAjaxTable();
 
         // ------ DATATABLE EXPORT BUTTONS
         // Show export to PDF, CSV, XLS and Print buttons on the table view.
@@ -161,10 +162,14 @@ class UploadCrudController extends CrudController
 
     public function update(UpdateRequest $request)
     {
-        // your additional operations before save here
         $redirect_location = parent::updateCrud($request);
-        // your additional operations after save here
-        // use $this->data['entry'] or $this->crud->entry
         return $redirect_location;
+    }
+
+    public function download(Upload $upload)
+    {
+        $files = glob(public_path('uploads/'.$upload->bundle.'/*'));
+        \Zipper::make(public_path('downloads/'.$upload->bundle.'.zip'))->add($files)->close();
+        return response()->download(public_path('downloads/'.$upload->bundle.'.zip'));
     }
 }

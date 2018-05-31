@@ -27,7 +27,7 @@ class Upload extends Model
     }
 
     public function downloadLink(){
-        return '<a href="#">Download</a>';
+        return '<a href="download/'.$this->id.'">Download</a>';
     }
 
 }
