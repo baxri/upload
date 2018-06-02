@@ -38,6 +38,11 @@ class UploadCrudController extends CrudController
         ]);
 
         $this->crud->addColumn([
+            'label' => 'NAME',
+            'name' => 'name',
+        ]);
+
+        $this->crud->addColumn([
             'label' => 'BUNDLE',
             'name' => 'bundle',
 //            'type' => 'model_function',

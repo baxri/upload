@@ -14,6 +14,7 @@ class Upload extends Model
     protected $fillable = [
         'parent_id',
         'bundle',
+        'name',
         'device',
         'filename',
     ];

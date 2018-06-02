@@ -13,6 +13,7 @@ class UploadFileController extends Controller
         $images = $request->file('images');
         $realm = $request->file('realm');
         $device = $request->header('haccp-device');
+        $name = $request->header('name');
         $bundle = $device . '-' . time();
 
         if (empty($realm) || empty($device) || empty($bundle) || empty($images)) {
@@ -23,12 +24,12 @@ class UploadFileController extends Controller
         File::makeDirectory($path, $mode = 0777, true, true);
 
         $filename = $realm->getClientOriginalName();
-        $realmBackup = Upload::create(['device' => $device, 'filename' => $filename, 'bundle' => $bundle]);
+        $realmBackup = Upload::create(['device' => $device, 'filename' => $filename, 'bundle' => $bundle, 'name' => $name]);
         $realm->move($path, $filename);
 
         foreach ($images as $image) {
             $filename = $image->getClientOriginalName();
-            Upload::create(['parent_id' => $realmBackup->id, 'device' => $device, 'filename' => $filename, 'bundle' => $bundle]);
+            Upload::create(['parent_id' => $realmBackup->id, 'device' => $device, 'filename' => $filename, 'bundle' => $bundle, 'name' => $name]);
             $image->move($path, $filename);
         }
     }

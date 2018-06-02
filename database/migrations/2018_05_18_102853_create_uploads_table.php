@@ -11,6 +11,7 @@ class CreateUploadsTable extends Migration
         Schema::create('uploads', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('parent_id')->unsigned()->nullable();
+            $table->string('name')->nullable();
             $table->string('bundle')->nullable();
             $table->string('device');
             $table->string('filename');
