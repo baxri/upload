@@ -45,8 +45,6 @@ class UploadCrudController extends CrudController
         $this->crud->addColumn([
             'label' => 'BUNDLE',
             'name' => 'bundle',
-//            'type' => 'model_function',
-//            'function_name' => 'getAmountView',
         ]);
 
         $this->crud->addColumn([
@@ -64,22 +62,16 @@ class UploadCrudController extends CrudController
         $this->crud->addColumn([
             'label' => 'DEVICE',
             'name' => 'device',
-//            'type' => 'model_function',
-//            'function_name' => 'getAmountView',
         ]);
 
         $this->crud->addColumn([
             'label' => 'FILENAME',
             'name' => 'filename',
-//            'type' => 'model_function',
-//            'function_name' => 'getAmountView',
         ]);
 
         $this->crud->addColumn([
             'label' => 'UPLOADED AT',
             'name' => 'created_at',
-//            'type' => 'model_function',
-//            'function_name' => 'getAmountView',
         ]);
 
 //        $this->crud->setFromDb();
