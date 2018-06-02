@@ -16,7 +16,7 @@ class UploadFileController extends Controller
         $name = $request->header('name');
         $bundle = $device . '-' . time();
 
-        if (empty($realm) || empty($device) || empty($bundle) || empty($images)) {
+        if (empty($realm) || empty($device) || empty($bundle)) {
             return;
         }
 
@@ -27,10 +27,12 @@ class UploadFileController extends Controller
         $realmBackup = Upload::create(['device' => $device, 'filename' => $filename, 'bundle' => $bundle, 'name' => $name]);
         $realm->move($path, $filename);
 
-        foreach ($images as $image) {
-            $filename = $image->getClientOriginalName();
-            Upload::create(['parent_id' => $realmBackup->id, 'device' => $device, 'filename' => $filename, 'bundle' => $bundle, 'name' => $name]);
-            $image->move($path, $filename);
+        if(!empty($images)){
+            foreach ($images as $image) {
+                $filename = $image->getClientOriginalName();
+                Upload::create(['parent_id' => $realmBackup->id, 'device' => $device, 'filename' => $filename, 'bundle' => $bundle, 'name' => $name]);
+                $image->move($path, $filename);
+            }
         }
     }
 }
