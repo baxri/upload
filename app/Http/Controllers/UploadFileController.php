@@ -17,7 +17,7 @@ class UploadFileController extends Controller
         $bundle = $device . '-' . time();
 
         if (empty($realm) || empty($device) || empty($bundle)) {
-            return;
+            exit('Some parameters are missing');
         }
 
         $path = public_path() . '/uploads/' . $bundle;
@@ -34,5 +34,7 @@ class UploadFileController extends Controller
                 $image->move($path, $filename);
             }
         }
+
+        exit('Uploaded Successfully Completed!');
     }
 }
