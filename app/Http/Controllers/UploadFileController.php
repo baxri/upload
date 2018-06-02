@@ -16,7 +16,7 @@ class UploadFileController extends Controller
         $name = $request->header('name');
         $bundle = $device . '-' . time();
 
-        if (empty($realm) || empty($device) || empty($bundle)) {
+        if (empty($realm) || empty($device)) {
             exit('Some parameters are missing');
         }
 
