@@ -54,13 +54,6 @@ class ImageCrudController extends CrudController
 //            'function_name' => 'getAmountView',
         ]);
 
-//        $this->crud->addColumn([
-//            'label' => 'FILENAME',
-//            'name' => 'filename',
-////            'type' => 'model_function',
-////            'function_name' => 'getAmountView',
-//        ]);
-
         $this->crud->addColumn([
             'label' => 'UPLOADED AT',
             'name' => 'created_at',
