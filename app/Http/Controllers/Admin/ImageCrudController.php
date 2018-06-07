@@ -57,8 +57,6 @@ class ImageCrudController extends CrudController
         $this->crud->addColumn([
             'label' => 'UPLOADED AT',
             'name' => 'created_at',
-//            'type' => 'model_function',
-//            'function_name' => 'getAmountView',
         ]);
 
         $this->crud->addClause('where', 'parent_id', $parent_id);
