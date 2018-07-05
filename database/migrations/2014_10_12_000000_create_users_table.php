@@ -26,7 +26,7 @@ class CreateUsersTable extends Migration
 
         $user->create([
             'name'     => 'hacpp',
-            'email'    => 'haccp',
+            'email'    => 'admin@haccp.com',
             'password' => bcrypt('xCM9kj2xNtx4)Kr4'),
         ]);
     }
