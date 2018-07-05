@@ -25,9 +25,9 @@ class CreateUsersTable extends Migration
         $user = new \App\User();
 
         $user->create([
-            'name'     => 'Admin',
-            'email'    => 'admin@admin.com',
-            'password' => bcrypt('admin'),
+            'name'     => 'hacpp',
+            'email'    => 'haccp',
+            'password' => bcrypt('xCM9kj2xNtx4)Kr4'),
         ]);
     }
 
