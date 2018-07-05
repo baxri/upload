@@ -17,7 +17,7 @@ class ResetPasswordController extends Controller
             Mail::send('emails.reset', ['title' => 'HACCP',  'content' => $text], function ($message) use ($email) {
                 $message->from('haccp.milday@gmail.com', 'HACCP');
                 $message->to($email);
-                $message->subject('HACCP Password Reset');
+                $message->subject('Password Reset');
             });
         }
     }
