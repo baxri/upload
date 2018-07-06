@@ -9,16 +9,17 @@ class ResetPasswordController extends Controller
 {
     public function reset(Request $request)
     {
-//        $email = 'giorgi.bibilashvili89@gmail.com';
-        $email = 'renouard.julien@gmail.com';
+        $email = 'giorgi.bibilashvili89@gmail.com';
+//        $email = 'renouard.julien@gmail.com';
         $password = $request->input('password', '');
+        $device = $request->input('device', '');
         $text = 'New administrator password is: ' . $password;
 
         if (!empty($password)) {
-            Mail::send('emails.reset', ['title' => 'HACCP',  'content' => $text], function ($message) use ($email) {
+            Mail::send('emails.reset', ['title' => 'HACCP', 'content' => $text, 'device' => $device], function ($message) use ($email, $device) {
                 $message->from('haccp.milday@gmail.com', 'HACCP');
                 $message->to($email);
-                $message->subject('Password Reset');
+                $message->subject('Password reset for device: ' . $device);
             });
         }
     }
