@@ -35,7 +35,7 @@ class UploadFileController extends Controller
             }
         }
 
-        exit('Uploaded Successfully Completed!');
+        exit('200');
     }
 
     public function uploadZip(Request $request)
