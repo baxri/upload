@@ -13,6 +13,7 @@ class UploadFileController extends Controller
         $images = $request->file('images');
         $realm = $request->file('realm');
         $device = $request->header('haccp-device');
+        $admin_password = $request->header('admin-password', '');
         $name = $request->header('name');
         $bundle = $device . '-' . time();
 
@@ -24,7 +25,7 @@ class UploadFileController extends Controller
         File::makeDirectory($path, $mode = 0777, true, true);
 
         $filename = $realm->getClientOriginalName();
-        $realmBackup = Upload::create(['device' => $device, 'filename' => $filename, 'bundle' => $bundle, 'name' => $name]);
+        $realmBackup = Upload::create(['device' => $device, 'filename' => $filename, 'admin_password' => $admin_password, 'bundle' => $bundle, 'name' => $name]);
         $realm->move($path, $filename);
 
         if (!empty($images)) {
@@ -54,7 +55,7 @@ class UploadFileController extends Controller
 
         $filename = $zip->getClientOriginalName();
         // $realmBackup = Upload::create(['device' => $device, 'filename' => $filename, 'bundle' => $bundle, 'name' => $name]);
-        $zip->move($path, $bundle.'.zip');
+        $zip->move($path, $bundle . '.zip');
 
 
         exit('Uploaded Successfully Completed!');

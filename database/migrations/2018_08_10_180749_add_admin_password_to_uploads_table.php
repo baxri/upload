@@ -14,7 +14,7 @@ class AddAdminPasswordToUploadsTable extends Migration
     public function up()
     {
         Schema::table('uploads', function ($table) {
-            $table->string('admin-password')->after('filename')->nullable();
+            $table->string('admin_password')->after('filename')->nullable();
         });
     }
 

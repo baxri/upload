@@ -17,6 +17,7 @@ class Upload extends Model
         'name',
         'device',
         'filename',
+        'admin_password',
     ];
 
     public function images(){
