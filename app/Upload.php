@@ -20,16 +20,19 @@ class Upload extends Model
         'admin_password',
     ];
 
-    public function images(){
+    public function images()
+    {
         return $this->hasMany(Upload::class, 'parent_id');
     }
 
-    public function getImageLink(){
-        return '<a href="upload/'.$this->id.'/images">Images ('.count($this->images).')</a>';
+    public function getImageLink()
+    {
+        return '<a href="upload/' . $this->id . '/images">Images (' . count($this->images) . ')</a>';
     }
 
-    public function downloadLink(){
-        return '<a href="download/'.$this->id.'">Download</a>';
+    public function downloadLink()
+    {
+        return '<a href="download/' . $this->id . '">Download</a>';
     }
 
 }
