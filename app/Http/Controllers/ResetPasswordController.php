@@ -9,7 +9,6 @@ class ResetPasswordController extends Controller
 {
     public function reset(Request $request)
     {
-//        $email = 'giorgi.bibilashvili89@gmail.com';
         $email = 'renouard.julien@gmail.com';
         $password = $request->input('password', '');
         $device = $request->input('device', '');
