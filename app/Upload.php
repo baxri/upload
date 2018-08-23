@@ -30,6 +30,11 @@ class Upload extends Model
         return '<a href="upload/' . $this->id . '/images">Images (' . count($this->images) . ')</a>';
     }
 
+    public function getDetailsLink()
+    {
+        return '<a href="#">Open Backup</a>';
+    }
+
     public function downloadLink()
     {
         return '<a href="download/' . $this->id . '">Download</a>';
