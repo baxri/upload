@@ -18,5 +18,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('/upload', 'UploadFileController@upload');
+Route::post('/upload-zip', 'UploadFileController@uploadZip');
+
+
 Route::post('/upload/zip', 'UploadFileController@uploadZip');
 Route::get('/password/send', 'ResetPasswordController@reset');

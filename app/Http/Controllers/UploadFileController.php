@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Upload;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
+use ZipArchive;
 
 class UploadFileController extends Controller
 {
@@ -43,6 +44,7 @@ class UploadFileController extends Controller
     {
         $zip = $request->file('zip');
         $device = $request->header('haccp-device');
+        $admin_password = $request->header('admin-password', '');
         $name = $request->header('name');
         $bundle = $device . '-' . time();
 
@@ -51,13 +53,22 @@ class UploadFileController extends Controller
         }
 
         $path = public_path() . '/zips/';
+        $pathUploads = public_path() . '/uploads/' . $bundle . '/';
         File::makeDirectory($path, $mode = 0777, true, true);
 
         $filename = $zip->getClientOriginalName();
-        // $realmBackup = Upload::create(['device' => $device, 'filename' => $filename, 'bundle' => $bundle, 'name' => $name]);
+//        $realmBackup = Upload::create(['device' => $device, 'filename' => $filename, 'admin_password' => $admin_password, 'bundle' => $bundle, 'name' => $name]);
         $zip->move($path, $bundle . '.zip');
 
+        $file = $path . $bundle . '.zip';
 
-        exit('Uploaded Successfully Completed!');
+        $zip = new ZipArchive;
+
+        $zip->open($file);
+        $zip->extractTo($pathUploads);
+        $zip->close();
+
+
+        exit('200');
     }
 }
