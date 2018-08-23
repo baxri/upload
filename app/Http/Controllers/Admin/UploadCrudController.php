@@ -170,8 +170,8 @@ class UploadCrudController extends CrudController
 
     public function download(Upload $upload)
     {
-        $files = glob(public_path('uploads/' . $upload->bundle . '/*'));
-        \Zipper::make(public_path('downloads/' . $upload->bundle . '.zip'))->add($files)->close();
-        return response()->download(public_path('downloads/' . $upload->bundle . '.zip'));
+//        $files = glob(public_path('uploads/' . $upload->bundle . '/*'));
+//        \Zipper::make(public_path('downloads/' . $upload->bundle . '.zip'))->add($files)->close();
+        return response()->download(public_path('zips/' . $upload->bundle . '.zip'));
     }
 }

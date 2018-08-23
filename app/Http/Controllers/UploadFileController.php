@@ -40,6 +40,9 @@ class UploadFileController extends Controller
         exit('200');
     }
 
+    /**
+     * @param Request $request
+     */
     public function uploadZip(Request $request)
     {
         $zip = $request->file('zip');
@@ -57,7 +60,7 @@ class UploadFileController extends Controller
         File::makeDirectory($path, $mode = 0777, true, true);
 
         $filename = $zip->getClientOriginalName();
-//        $realmBackup = Upload::create(['device' => $device, 'filename' => $filename, 'admin_password' => $admin_password, 'bundle' => $bundle, 'name' => $name]);
+        $realmBackup = Upload::create(['device' => $device, 'filename' => $filename, 'admin_password' => $admin_password, 'bundle' => $bundle, 'name' => $name]);
         $zip->move($path, $bundle . '.zip');
 
         $file = $path . $bundle . '.zip';
