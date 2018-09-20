@@ -49,7 +49,7 @@ class UploadFileController extends Controller
         $device = $request->header('haccp-device');
         $admin_password = $request->header('admin-password', '');
         $name = $request->header('name');
-        $bundle = $device . '-' . time();
+        $bundle = $name . '-' . time();
 
         if (empty($zip)) {
             exit('Some parameters are missing');
