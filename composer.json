@@ -22,6 +22,12 @@
         "phpunit/phpunit": "~6.0",
         "symfony/thanks": "^1.0"
     },
+    "repositories" : [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:baxri/laravel-backpack-extend.git"
+        }
+    ],
     "autoload": {
         "classmap": [
             "database/seeds",
