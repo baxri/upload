@@ -14,7 +14,6 @@ class ResetPasswordController extends Controller
         $device = $request->input('device', '');
         $text = 'New administrator password is: ' . $password;
 
-
         if (!empty($password)) {
             Mail::send('emails.reset', ['title' => 'HACCP', 'content' => $text, 'device' => $device], function ($message) use ($email, $device) {
                 $message->from('haccp.milday@gmail.com', 'HACCP');
