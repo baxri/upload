@@ -21,5 +21,6 @@ class ResetPasswordController extends Controller
                 $message->subject('Password reset for device: ' . $device);
             });
         }
+        //
     }
 }
