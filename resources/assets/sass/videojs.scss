@@ -1,0 +1,57 @@
+
+.vjs-play-control{
+  color: $danger !important;
+}
+
+.video-js .vjs-play-progress:before {
+  background-color: $danger !important;
+  color: $danger !important;
+  border-radius: 50px !important;
+}
+
+.vjs-play-progress.vjs-slider-bar{
+  background-color: $danger !important;
+}
+
+.vjs-slider-horizontal .vjs-volume-level:before{
+  background-color: $danger !important;
+  color: $danger !important;
+  border-radius: 50px !important;
+}
+
+.vjs-volume-level{
+  background-color: $danger !important;
+}
+
+.vjs-has-started .vjs-control-bar {
+  opacity: 0.9;
+  background-color: white !important;
+  color: $text-color !important;
+  font-size: 15pt !important;
+}
+
+.vjs-current-time {
+  display: block !important;
+}
+
+.vjs-time-divider {
+  display: block !important;
+}
+
+.vjs-duration{
+  display: block !important;
+}
+
+.videojs-next-btn{
+  font-size: 23pt !important;
+  width: 50px !important;
+  cursor: pointer !important;
+  margin-right: 13px !important;
+}
+
+.videojs-prev-btn{
+  font-size: 23pt !important;
+  width: 50px !important;
+  cursor: pointer !important;
+
+}

@@ -1,0 +1,86 @@
+
+.height-extra-small{ height: 20px; }
+.height-small{ height: 40px !important; }
+.height-medium{ height: 90px; }
+.height-large{ height: 205px; }
+
+.font-medium{ font-size: 15pt; }
+.font-large{ font-size: 20pt; }
+
+.line{border-bottom: 1px solid $text-color;}
+
+
+.underline{ text-decoration: underline; }
+.btn{ cursor: pointer; }
+
+.modal-content{
+  border-radius: 0px !important;
+}
+
+.btn-danger{
+  border-radius: 0px;
+}
+
+.btn-secondary{
+  border-radius: 0px;
+  background-color: transparent;
+  border-color: $text-color;
+  color: $text-color;
+}
+
+.btn-primary{
+  border-radius: 0px;
+  background-color: transparent;
+  border: 0px;
+  color: white;
+  background-color: gray;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: $text-color;
+  border: 0px;
+}
+
+.btn-link{
+  border-radius: 0px;
+  border: 0px;
+  color: $text-color;
+}
+
+.btn-link:hover{
+  text-decoration: none;
+}
+
+.btn-link.active{
+  border-bottom: 2px solid $text-color;
+}
+
+a{
+  color: $text-color;
+}
+
+input{
+  border-radius: 0px !important;
+  border: 0px !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+select{
+  border-radius: 0px !important;
+  border: 0px !important;
+}
+
+textarea{
+  border-radius: 0px !important;
+}
+
+
+
+
+

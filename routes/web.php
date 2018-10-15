@@ -1,8 +1,10 @@
 <?php
 
 Route::get('/', function () {
-    return redirect('/admin');
+    return redirect('/login');
 });
+
+Route::get('login', 'LoginController@index');
 
 Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     CRUD::resource('upload', 'Admin\UploadCrudController');
