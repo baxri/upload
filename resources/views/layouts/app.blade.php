@@ -39,7 +39,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-sm-2 text-center guest-logo">
-                <h1>BTI</h1>
+                <h1>HACCP</h1>
             </div>
         </div>
         @yield('content')

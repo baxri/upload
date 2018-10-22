@@ -6,22 +6,30 @@
         <div class="row height-medium"></div>
         <div class="row justify-content-center">
             <div class="col-sm-12 justify-content-center text-center">
-                <h2>Welcone To Screener Manager Portal</h2>
-                <p>Please login or signup to access your projects</p>
+                <h2>Welcome To HACCP Manager Portal</h2>
+                <p>Please login to access your panel</p>
             </div>
         </div>
         <div class="row height-small"></div>
         <div class="row justify-content-center">
             <div class="col-sm-12 col-md-6 col-lg-4">
-                <label for="email" class="control-label">Enter your email address</label>
+                <label for="email" class="control-label">Email</label>
                 <input id="email" type="email" class="form-control height-small" name="email" value=""
                        placeholder="Email Address" required autofocus>
             </div>
         </div>
         <div class="row height-extra-small"></div>
         <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <label for="password" class="control-label">Password</label>
+                <input id="password" type="password" class="form-control height-small" name="email" value=""
+                       placeholder="Password" required autofocus>
+            </div>
+        </div>
+        <div class="row height-extra-small"></div>
+        <div class="row justify-content-center">
             <div class="col-sm-12 col-md-6 col-lg-4 text-center ">
-                <button type="submit" class="btn btn-secondary btn-block height-small">SEND ME A LOGIN CODE</button>
+                <button type="submit" class="btn btn-secondary btn-block height-small">LOGIN</button>
             </div>
         </div>
         <div class="row height-medium"></div>

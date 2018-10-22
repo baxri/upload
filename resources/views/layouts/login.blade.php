@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="col-sm-2 text-center logo">
-                <h1>BTI</h1>
+                <h1>HACCP</h1>
             </div>
             <div class="col-sm-2 logout">
                 <form id="logout-form" action="/{{app()->getLocale()}}/logout" method="POST">
