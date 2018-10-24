@@ -20,6 +20,8 @@ Route::middleware(['auth:api'])->group(function () {
     });
 
     Route::get('/backups', 'BackupControler@list');
+    Route::get('/dashboard', 'DashboardController@all');
+
 });
 
 
