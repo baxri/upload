@@ -9,9 +9,10 @@ class DashboardController extends Controller
 {
     public function all(Request $request)
     {
-
-
         $backups = Upload::all();
-        return response()->json($backups);
+        return response()->json([
+            'active' => 1,
+            'backups' => $backups,
+        ]);
     }
 }
