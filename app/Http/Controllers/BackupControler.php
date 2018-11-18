@@ -9,7 +9,7 @@ class BackupControler extends Controller
 {
     public function list(Request $request)
     {
-        $backups = Upload::where('parent_id', null)->get();
+        $backups = Upload::where('parent_id', null)->orderBy('id', 'desc')->get();
         return response()->json($backups);
     }
 
