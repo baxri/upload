@@ -20,6 +20,7 @@ Route::middleware(['auth:api'])->group(function () {
     });
 
     Route::get('/backups', 'BackupControler@list');
+    Route::get('/realm', 'BackupControler@realm');
     Route::get('/dashboard', 'DashboardController@all');
 
 });

@@ -13,4 +13,11 @@ class BackupControler extends Controller
         return response()->json($backups);
     }
 
+    public function realm(Request $request)
+    {
+        $url = $request->input('url');
+        $content = file_get_contents($url);
+        return response()->json($content);
+    }
+
 }
