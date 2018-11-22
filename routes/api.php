@@ -21,10 +21,12 @@ Route::middleware(['auth:api'])->group(function () {
 
     Route::get('/backups', 'BackupControler@list');
     Route::get('/dashboard', 'DashboardController@all');
-    Route::get('/realm', 'BackupControler@realm');
-    Route::post('/realm', 'BackupControler@realm');
+
 
 });
+
+Route::get('/realm', 'BackupControler@realm');
+Route::post('/realm', 'BackupControler@realm');
 
 
 Route::post('/upload', 'UploadFileController@upload');
