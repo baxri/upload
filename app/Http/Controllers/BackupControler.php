@@ -19,6 +19,9 @@ class BackupControler extends Controller
         $content = file_get_contents($url);
 
         $json = json_decode($content);
+
+        dd($json);
+
         return response()->json($json);
     }
 
