@@ -17,7 +17,9 @@ class BackupControler extends Controller
     {
         $url = $request->input('url');
         $content = file_get_contents($url);
-        return $content;
+
+        $json = json_decode($content);
+        return response()->json($json);
     }
 
 }
