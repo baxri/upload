@@ -28,7 +28,7 @@ class BackupControler extends Controller
         $url = base64_decode($url);
         $output = file_get_contents($url);
         return [
-            'total' => count($output),
+            'total' => count(json_decode($output)),
             'list' => $output,
         ];
     }
