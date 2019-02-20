@@ -9,8 +9,6 @@
 
 define('LARAVEL_START', microtime(true));
 
-die("OKOKOK");
-
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
