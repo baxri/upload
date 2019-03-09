@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Upload extends Model
 {
     use CrudTrait;
-
     protected $table = 'uploads';
 
     protected $fillable = [
