@@ -10,7 +10,6 @@ class Upload extends Model
     use CrudTrait;
 
     protected $table = 'uploads';
-
     protected $fillable = [
         'parent_id',
         'bundle',
