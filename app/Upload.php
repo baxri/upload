@@ -37,4 +37,5 @@ class Upload extends Model
     {
         return '<a href="download/' . $this->id . '">Download</a>';
     }
+
 }
